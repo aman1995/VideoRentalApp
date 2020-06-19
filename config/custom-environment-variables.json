@@ -1,3 +1,4 @@
 {
-    "jwtPrivateKey" : "vidren_jwtPrivateKey"
+    "jwtPrivateKey" : "vidren_jwtPrivateKey",
+    "db" : "vidren_db"
 }
