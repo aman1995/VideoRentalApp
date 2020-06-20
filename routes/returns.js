@@ -41,7 +41,7 @@ const validateReturns = ((returns)=>{
         customerId : Joi.objectId().required(),
         movieId : Joi.objectId().required()
      };
-     return Joi.validate(rental , schema)
+     return Joi.validate(returns , schema)
 })
 
 
