@@ -20,7 +20,7 @@ router.post('/', auth, async (req,res)=>{
     const customer = await Customer.findById(req.body.customerId);
     if(!customer) return res.status(400).send('Invalid Customer');
 
-    const Rental = await Rental.lookup(req.body.customerId, req.body.movieId);
+    const rental = await Rental.lookup(req.body.customerId, req.body.movieId);
 
     if(!rental) return res.status(404).send('No rental found');
     if(rental.dateReturned) return res.status(400).send('Return already processed');
