@@ -29,7 +29,7 @@ router.post('/', async (req,res) => {
      const genre = new Genre({  
         name :  req.body.name
      });
-      await genre.save();
+     await genre.save();
      res.send(genre);
 });
 
