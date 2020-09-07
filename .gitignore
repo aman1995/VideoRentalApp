@@ -1,3 +1,7 @@
 node_modules/
 coverage/
 vidren.code-workspace
+data
+grafana-data
+logfile.log
+uncaughtExceptions.log

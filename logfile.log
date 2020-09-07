@@ -69,3 +69,16 @@
 {"message":"Genre validation failed: name: Path `name` is required.","stack":"ValidationError: Genre validation failed: name: Path `name` is required.\n    at model.Document.invalidate (C:\\Users\\Aman Choudhury\\Documents\\node js\\vidren\\node_modules\\mongoose\\lib\\document.js:2574:32)\n    at C:\\Users\\Aman Choudhury\\Documents\\node js\\vidren\\node_modules\\mongoose\\lib\\document.js:2394:17\n    at C:\\Users\\Aman Choudhury\\Documents\\node js\\vidren\\node_modules\\mongoose\\lib\\schematype.js:1181:9\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)","errors":{"name":{"properties":{"message":"Path `name` is required.","type":"required","path":"name"},"kind":"required","path":"name"}},"_message":"Genre validation failed","level":"error","timestamp":"2020-06-19T22:20:27.035Z"}
 {"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-06-19T22:20:46.743Z"}
 {"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-06-20T09:19:39.900Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T11:48:20.681Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T15:28:00.363Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:37:09.479Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:37:49.865Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:39:20.166Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:39:55.694Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:45:33.204Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:48:24.001Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:48:56.208Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:51:29.200Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:51:44.351Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T16:54:52.694Z"}
+{"level":"info","message":"Connected To mongodb://localhost/vidren..","timestamp":"2020-09-05T17:52:54.752Z"}

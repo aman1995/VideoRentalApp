@@ -1,0 +1,38 @@
+version: "3"
+services:
+  backend:
+    container_name: nodejs
+    restart: always
+    build: .
+    ports:
+      - "3000:3000"
+    volumes: ["./:/app"]
+    links:
+      - mongo
+
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"
+
+  prometheus:
+    container_name: prometheus-svc
+    image: prom/prometheus
+    ports:
+      - "9091:9090"
+    command: --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+  grafana:
+    container_name: grafana
+    image: grafana/grafana:5.0.4
+    ports:
+      - "3020:3000"
+    environment:
+      - GF_AUTH_BASIC_ENABLED=false
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin

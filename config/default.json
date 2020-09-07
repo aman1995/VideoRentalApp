@@ -1,4 +1,4 @@
 {
-    "jwtPrivateKey" : "",
-    "db" : "mongodb://localhost/vidren"
+  "jwtPrivateKey": "",
+  "db": "mongodb://mongo:27017/vidren"
 }
